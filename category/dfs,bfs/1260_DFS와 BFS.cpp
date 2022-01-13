@@ -38,7 +38,6 @@ void bfs(int start)
         int x = q.front();
         q.pop();
         cout << x << ' ';
-        sort(a[x].begin(), a[x].end());
         for (int i = 0; i < a[x].size(); i++) {
             int y = a[x][i];
             if (!c[y]) {
